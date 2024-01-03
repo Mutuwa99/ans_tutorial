@@ -1,0 +1,7 @@
+- name: install python 3 
+  hosts: pythn_servers
+  become: yes
+
+  roles:
+    - python
+
