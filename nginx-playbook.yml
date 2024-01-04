@@ -1,6 +1,6 @@
 - name: install nginx
   hosts: nginx_servers
-  become: yes
+  become: yes #root or admin
 
   roles:
     - nginx
